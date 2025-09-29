@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обработчик текста</title>
+    <!-- Подключаем файл со стилями -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Мой текстовый преобразователь</h1>
+        <p>Введите текст ниже, и я его переверну!</p>
+
+        <!-- Поле для ввода текста -->
+        <textarea id="inputText" placeholder="Введите ваш текст здесь..."></textarea>
+        
+        <!-- Кнопка для обработки -->
+        <button onclick="processText()">Перевернуть текст!</button>
+
+        <!-- Место для вывода результата -->
+        <div id="output"></div>
+    </div>
+
+    <!-- Подключаем файл с JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
